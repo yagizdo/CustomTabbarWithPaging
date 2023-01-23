@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1071C2B7297EBBFD00ECF838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071C2B6297EBBFD00ECF838 /* AppDelegate.swift */; };
 		1071C2B9297EBBFD00ECF838 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071C2B8297EBBFD00ECF838 /* SceneDelegate.swift */; };
-		1071C2BB297EBBFD00ECF838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071C2BA297EBBFD00ECF838 /* ViewController.swift */; };
+		1071C2BB297EBBFD00ECF838 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071C2BA297EBBFD00ECF838 /* PagingViewController.swift */; };
 		1071C2BE297EBBFD00ECF838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1071C2BC297EBBFD00ECF838 /* Main.storyboard */; };
 		1071C2C0297EBBFE00ECF838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1071C2BF297EBBFE00ECF838 /* Assets.xcassets */; };
 		1071C2C3297EBBFE00ECF838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1071C2C1297EBBFE00ECF838 /* LaunchScreen.storyboard */; };
+		10CA62FA297EBFDB0097D1B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA62F9297EBFDB0097D1B0 /* HomeViewController.swift */; };
+		10CA62FC297EC0030097D1B0 /* OriginalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA62FB297EC0030097D1B0 /* OriginalsViewController.swift */; };
+		7E32E6268CD3237B8810D50B /* Pods_CustomTabbarUse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA2DA0E6D76625DC74FCE8D /* Pods_CustomTabbarUse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BA2DA0E6D76625DC74FCE8D /* Pods_CustomTabbarUse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTabbarUse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1071C2B3297EBBFD00ECF838 /* CustomTabbarUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbarUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1071C2B6297EBBFD00ECF838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1071C2B8297EBBFD00ECF838 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1071C2BA297EBBFD00ECF838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1071C2BA297EBBFD00ECF838 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
 		1071C2BD297EBBFD00ECF838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1071C2BF297EBBFE00ECF838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1071C2C2297EBBFE00ECF838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1071C2C4297EBBFE00ECF838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CA62F9297EBFDB0097D1B0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		10CA62FB297EC0030097D1B0 /* OriginalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalsViewController.swift; sourceTree = "<group>"; };
+		544D7AD0B2C011630C9096D8 /* Pods-CustomTabbarUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabbarUse.debug.xcconfig"; path = "Target Support Files/Pods-CustomTabbarUse/Pods-CustomTabbarUse.debug.xcconfig"; sourceTree = "<group>"; };
+		749F4CB190DA2C42D7553D10 /* Pods-CustomTabbarUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabbarUse.release.xcconfig"; path = "Target Support Files/Pods-CustomTabbarUse/Pods-CustomTabbarUse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E32E6268CD3237B8810D50B /* Pods_CustomTabbarUse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				1071C2B5297EBBFD00ECF838 /* CustomTabbarUse */,
 				1071C2B4297EBBFD00ECF838 /* Products */,
+				E9B8C46CC361F4E77DDD90B8 /* Pods */,
+				3560FD5372A20C1241E8E3DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +67,42 @@
 		1071C2B5297EBBFD00ECF838 /* CustomTabbarUse */ = {
 			isa = PBXGroup;
 			children = (
+				10CA62F8297EBFA60097D1B0 /* Screens */,
 				1071C2B6297EBBFD00ECF838 /* AppDelegate.swift */,
 				1071C2B8297EBBFD00ECF838 /* SceneDelegate.swift */,
-				1071C2BA297EBBFD00ECF838 /* ViewController.swift */,
+				1071C2BA297EBBFD00ECF838 /* PagingViewController.swift */,
 				1071C2BC297EBBFD00ECF838 /* Main.storyboard */,
 				1071C2BF297EBBFE00ECF838 /* Assets.xcassets */,
 				1071C2C1297EBBFE00ECF838 /* LaunchScreen.storyboard */,
 				1071C2C4297EBBFE00ECF838 /* Info.plist */,
 			);
 			path = CustomTabbarUse;
+			sourceTree = "<group>";
+		};
+		10CA62F8297EBFA60097D1B0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				10CA62F9297EBFDB0097D1B0 /* HomeViewController.swift */,
+				10CA62FB297EC0030097D1B0 /* OriginalsViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3560FD5372A20C1241E8E3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA2DA0E6D76625DC74FCE8D /* Pods_CustomTabbarUse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B8C46CC361F4E77DDD90B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				544D7AD0B2C011630C9096D8 /* Pods-CustomTabbarUse.debug.xcconfig */,
+				749F4CB190DA2C42D7553D10 /* Pods-CustomTabbarUse.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1071C2C7297EBBFE00ECF838 /* Build configuration list for PBXNativeTarget "CustomTabbarUse" */;
 			buildPhases = (
+				339E0A568F18DBA8E045DC03 /* [CP] Check Pods Manifest.lock */,
 				1071C2AF297EBBFD00ECF838 /* Sources */,
 				1071C2B0297EBBFD00ECF838 /* Frameworks */,
 				1071C2B1297EBBFD00ECF838 /* Resources */,
+				9E13D6875439384D0EA78734 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +143,7 @@
 				};
 			};
 			buildConfigurationList = 1071C2AE297EBBFD00ECF838 /* Build configuration list for PBXProject "CustomTabbarUse" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,14 +173,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		339E0A568F18DBA8E045DC03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomTabbarUse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E13D6875439384D0EA78734 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomTabbarUse/Pods-CustomTabbarUse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomTabbarUse/Pods-CustomTabbarUse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomTabbarUse/Pods-CustomTabbarUse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1071C2AF297EBBFD00ECF838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1071C2BB297EBBFD00ECF838 /* ViewController.swift in Sources */,
+				1071C2BB297EBBFD00ECF838 /* PagingViewController.swift in Sources */,
 				1071C2B7297EBBFD00ECF838 /* AppDelegate.swift in Sources */,
+				10CA62FC297EC0030097D1B0 /* OriginalsViewController.swift in Sources */,
 				1071C2B9297EBBFD00ECF838 /* SceneDelegate.swift in Sources */,
+				10CA62FA297EBFDB0097D1B0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +366,7 @@
 		};
 		1071C2C8297EBBFE00ECF838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544D7AD0B2C011630C9096D8 /* Pods-CustomTabbarUse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,14 +387,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagizdokumaci.CustomTabbarUse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1071C2C9297EBBFE00ECF838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749F4CB190DA2C42D7553D10 /* Pods-CustomTabbarUse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,9 +419,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagizdokumaci.CustomTabbarUse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
